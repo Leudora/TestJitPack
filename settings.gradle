@@ -1,11 +1,10 @@
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
         mavenCentral()
+        google()
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
 rootProject.name = "Sport02"
 include ':app'
-include ':library'
